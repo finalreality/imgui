@@ -11,6 +11,7 @@ set(IMGUI_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/imgui_tables.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/imgui_widgets.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_glfw.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_vulkan.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_opengl2.cpp
 )
 
